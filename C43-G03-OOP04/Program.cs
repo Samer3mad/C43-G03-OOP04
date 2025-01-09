@@ -70,6 +70,60 @@ namespace Demo
             #endregion
 
             #endregion
+
+            #region Deep Copy VS Shallow Copy
+
+            #region Shallow Copy
+
+            //int[] Arr01 = { 1, 2, 3 };
+            //int[] Arr02 = { 4, 5, 6 };
+
+            //Console.WriteLine($"Arr01= {Arr01.GetHashCode()}");
+            //Console.WriteLine($"Arr02= {Arr02.GetHashCode()}");
+
+            //Arr02 = Arr01;
+            //Console.WriteLine("After Shallow Copy --> Arr02 = Arr01");
+            /////This Called Shallow Copy
+            /////Arr02 Unreachable object
+
+            //Console.WriteLine($"Arr01= {Arr01.GetHashCode()}");
+            //Console.WriteLine($"Arr02= {Arr02.GetHashCode()}");
+
+            //Arr02[0] = 100;
+
+            //Console.WriteLine(Arr01[0]); //100 
+
+            #endregion
+
+            #region Deep Copy
+            //int[] Arr01 = { 1, 2, 3 };
+            //int[] Arr02 = { 4, 5, 6 };
+
+            //Console.WriteLine($"Arr01= {Arr01.GetHashCode()}");
+            //Console.WriteLine($"Arr02= {Arr02.GetHashCode()}");
+
+            //Arr02 = (int[]) Arr01.Clone();
+            //This called Deep Copy
+            //Clone will generate new object with new and different identity 
+            //      this object will add the same state [Data] of the caller object
+
+            //Console.WriteLine("After Deep Copy --> Arr02 = (int[]) Arr01.Clone()");
+
+            //Console.WriteLine($"Arr01= {Arr01.GetHashCode()}");
+            //Console.WriteLine($"Arr02= {Arr02.GetHashCode()}");
+
+            //Arr02[0] = 100;
+            //Console.WriteLine();
+            //foreach (int number in Arr01)
+            //    Console.WriteLine(number);
+            //Console.WriteLine();
+            //foreach (int number in Arr02)
+            //    Console.WriteLine(number);
+
+            //Console.WriteLine(Arr01[0]); //1
+            #endregion
+
+            #endregion
         }
     }
 }
