@@ -60,6 +60,17 @@
             //}
             #endregion
 
+            #region Question 03
+            //INotificationService email = new EmailNotificationService();
+            //INotificationService sms = new SmsNotificationService();
+            //INotificationService push = new PushNotificationService();
+
+            //email.SendNotification("Hello ",  "smaer@yahoo.com");
+            //sms.SendNotification("Hello", "+201062227503");
+            //push.SendNotification("Hello", "Samer");
+
+            #endregion
+
             #endregion
         }
     }
