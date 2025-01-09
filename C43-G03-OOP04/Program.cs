@@ -1,10 +1,32 @@
-﻿namespace C43_G03_OOP04
+﻿namespace Demo
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            
+            #region Interface
+
+            #region Interface Ex 01
+            //ITypes reference;
+            ///Declare for reference of type "IType" Containing garbage values
+            ///this ref can refere to an objevt of any type
+            ///CLR will alocate for uninitalized bytes in stack for this ref
+            ///CLR wil not allocate anything in the heap
+
+
+            //reference = new ITypes(); Invalid
+
+            ///reference = new TypeA();
+            ///reference.MyProperty = 10;
+            ///reference.MyMethod();  //Hello World
+            ///reference.Print();     //Default Implemented Method
+
+
+            ///TypeA typea = new TypeA();
+            ///typea.MyProperty = 10;
+            ///typea.MyMethod(); 
+            #endregion
+            #endregion
         }
     }
 }
