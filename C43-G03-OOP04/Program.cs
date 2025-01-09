@@ -40,6 +40,18 @@
 
             #endregion
 
+            #region Interface Ex 03
+            //Airplane air = new Airplane();
+            //air.Speed = 480;
+            //air.Forward();  Invalid Because Forward is private 
+
+            //IMoveable moveable = air;
+            //moveable.Forward();
+
+            //IFlyable flyable = air;
+            //flyable.Forward();
+            #endregion
+
             #endregion
         }
     }
