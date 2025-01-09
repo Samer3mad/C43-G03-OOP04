@@ -26,6 +26,20 @@
             ///typea.MyProperty = 10;
             ///typea.MyMethod(); 
             #endregion
+
+            #region Interface Ex 02
+
+            //TypeA seriesBytwo = new TypeA();
+            //Printnums(seriesBytwo);
+
+            //TypeB seriesBythree = new TypeB();
+            //Printnums(seriesBythree);
+
+            //TypeC seriesByfour = new TypeC();
+            //Printnums(seriesByfour);
+
+            #endregion
+
             #endregion
         }
     }
