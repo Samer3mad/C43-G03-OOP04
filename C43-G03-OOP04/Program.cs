@@ -124,6 +124,52 @@ namespace Demo
             #endregion
 
             #endregion
+
+            #region IClonable
+            //Employee emp1 = new Employee() { ID = 7, Name = "Samer", Salary = 10000, Dep = new Department() { code = 101, Title = "Sales" } };
+            //Employee emp2 = new Employee() { ID = 77, Name = "Samir", Salary = 10000, Dep = new Department() { code = 102, Title = "HR" } };
+            //Console.WriteLine($"Employee 1= {emp1.GetHashCode()}");
+            //Console.WriteLine($"Employee 2= {emp2.GetHashCode()}");
+
+            //emp2 = (Employee)emp1.Clone();
+            //if (emp2.Dep != null)
+            //{
+            //    emp2.Dep.Title = "NEW";
+            //}
+
+            //Console.WriteLine("After Copy");
+            //Console.WriteLine($"Employee 1= {emp1.GetHashCode()}");
+            //Console.WriteLine($"Employee 2= {emp2.GetHashCode()}");
+            //Console.WriteLine();
+            //Console.WriteLine($"Employee 1= {emp1}");
+            //Console.WriteLine($"Employee 2= {emp2}");
+
+            #endregion
+
+            #region ICompareable
+            //int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //Array.Sort(nums);
+
+            //foreach (int i in nums)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //Employee[] emps = {
+            //    new Employee() {ID=10, Name="Samer", Salary=10000 },
+            //    new Employee() {ID=20, Name= "Ahmed", Salary=20000 },
+            //    new Employee() {ID=30, Name= "Mohamed", Salary=30000 },
+            //    new Employee() {ID=40, Name= "Saad", Salary=70000 }
+            //};
+
+            //Array.Sort(emps);
+
+            //foreach (Employee emp in emps)
+            //{
+            //    Console.WriteLine(emp);
+            //}
+            #endregion
         }
     }
 }
