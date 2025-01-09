@@ -25,6 +25,22 @@
 
             //Question 10 --> c) By separating interface names with commas
             #endregion
+
+            #region Patr 02
+
+            #region Question 01
+            //ICircle c = new Circle(7);
+
+            //IRectangle r = new Rectangle(3, 4);
+
+            //c.DisplayShapeInfo();
+            //Console.WriteLine();
+            //r.DisplayShapeInfo();
+            #endregion
+
+
+
+            #endregion
         }
     }
 }
