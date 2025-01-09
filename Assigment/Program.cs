@@ -38,7 +38,27 @@
             //r.DisplayShapeInfo();
             #endregion
 
+            #region Question 02
+            //IAuthenticationService authService = new BasicAuthenticationService();
 
+            //if (authService.AuthenticateUser("user", "password"))
+            //{
+            //    Console.WriteLine("User Authenticated Succefully");
+
+            //    if (authService.AuthorizeUser("user", "admin"))
+            //    {
+            //        Console.WriteLine("User Authorized Succefully");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("User not Authorized.");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("User not Authenticated.");
+            //}
+            #endregion
 
             #endregion
         }
