@@ -1,7 +1,24 @@
-﻿namespace Demo
+﻿using C43_G03_OOP04.Interface_Example_02;
+
+namespace Demo
 {
     internal class Program
     {
+        static void Printnums(ISeries series)
+        {
+            if (series == null)
+
+                return;
+
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine($"{series.Current}\n");
+                series.getNext();
+            }
+            series.Reset();
+            Console.WriteLine();
+        }
+
         static void Main(string[] args)
         {
             #region Interface
