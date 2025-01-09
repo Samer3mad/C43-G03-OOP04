@@ -170,6 +170,22 @@ namespace Demo
             //    Console.WriteLine(emp);
             //}
             #endregion
+
+            #region IComparer
+            //Employee[] emps = {
+            //    new Employee() {ID=10, Name="Samer", Salary=10000 },
+            //    new Employee() {ID=20, Name= "Ahmed", Salary=20000 },
+            //    new Employee() {ID=30, Name= "Mohamed", Salary=30000 },
+            //    new Employee() {ID=40, Name= "Saad", Salary=70000 }
+            //};
+
+            //Array.Sort(emps, new EmpComparer());
+
+            //foreach (Employee emp in emps)
+            //{
+            //    Console.WriteLine(emp);
+            //}
+            #endregion
         }
     }
 }
